@@ -1,0 +1,20 @@
+{
+  "KPlugin": {
+    "Authors": [
+      { "Email": "chloe@arkwright.app", "Name": "Chloe Arkwright" }
+    ],
+    "Category": "Application Launchers",
+    "Description": "A windows 10 inspired application menu widget for KDE Plasma.",
+    "Icon": "homerun",
+    "Id": "app.arkwright.tammy",
+    "Name": "Tammy",
+    "Version": "1",
+    "Website": "https://arkwright.app/tammy",
+    "BugReportUrl": "https://github.com/chloe-arkwright/tammy/issues"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0",
+  "KPackageStructure": "Plasma/Applet",
+  "X-Plasma-Provides": [
+    "org.kde.plasma.launchermenu"
+  ]
+}
